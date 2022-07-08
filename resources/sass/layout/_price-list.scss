@@ -1,0 +1,64 @@
+.price-list {
+    background-color: #F7F9FF;
+    font-weight: normal;
+    font-size: 1.125rem;
+    color: #0F2E68;
+    min-height: 500px;
+
+    h1 {
+        font-weight: bold;
+        font-size: 2rem;
+        @include media-breakpoint-up(md) {
+            font-size: 3rem;
+        }
+    }
+
+    .price-box {
+        background-color: #FFFFFF;
+        border-radius: 5px;
+
+        &-logo {
+            max-height: 90px;
+        }
+
+        &-title {
+            font-size: 1.875rem;
+        }
+
+        &-item {
+            border: 2px solid #E7EAF6;
+            border-radius: 5px;
+
+            &-title {
+                font-size: 1.875rem;
+            }
+
+            &-description {
+                font-size: 1.125rem;
+            }
+
+            &-hr {
+                position: relative;
+            }
+
+            &-hr:before {
+                content : "";
+                position: absolute;
+                height  : 1px;
+                width: 80%;
+                left: 10%;
+                border-bottom:1px solid #E7EAF6;
+            }
+
+            &-price {
+                font-size: 1.875rem;
+            }
+
+            &-sms{
+                border: 2px solid #E7EAF6;
+                border-radius: 5px;
+            }
+
+        }
+    }
+}

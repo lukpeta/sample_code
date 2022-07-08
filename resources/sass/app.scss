@@ -1,0 +1,25 @@
+// Variables
+@import 'utils/fonts';
+@import 'utils/icheck';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+@import '~animate.css';
+@import "~owl.carousel/src/scss/owl.carousel";
+
+@import "main";
+@import "layout/home";
+@import "layout/blog";
+@import "layout/text-page";
+@import "layout/recommending";
+@import "layout/integration";
+@import "layout/_price-list";
+@import "layout/company";
+@import "layout/registration";
+@import "layout/how-we-working";
+@import "layout/cms";
+
+@import "layout/partials/header";
+@import "layout/partials/footer";
+@import "layout/partials/cookies";
+

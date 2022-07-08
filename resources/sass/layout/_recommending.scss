@@ -1,0 +1,53 @@
+.recommending {
+    background-color: #F7F9FF;
+    font-weight: normal;
+    font-size: 1.125rem;
+    color: #0F2E68;
+    min-height: 500px;
+
+    h1 {
+        font-weight: bold;
+        font-size: 2rem;
+        @include media-breakpoint-up(md) {
+            font-size: 3rem;
+        }
+    }
+
+    h2{
+        font-weight: 400;
+        font-size: 1.875rem;
+    }
+
+    .title{
+        font-size: 1.25rem;
+    }
+
+    input[type=email] {
+        height: 55px;
+        font-size: 1.125rem;
+        padding: 0 10px;
+        width: 100%;
+
+        @include media-breakpoint-up(md) {
+            width: 430px;
+        }
+    }
+
+    input[type=submit] {
+        background-color: #EEA701;
+        border: 0;
+        border-radius: 5px;
+        color: white;
+        padding: 20px 30px;
+        text-align: center;
+        font-size: 1.125rem;
+        font-weight: bold;
+        height: 70px;
+        margin: 0 auto;
+        width: 100%;
+
+        @include media-breakpoint-up(md) {
+            width: 132px;
+        }
+    }
+}

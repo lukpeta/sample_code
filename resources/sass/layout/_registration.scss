@@ -1,0 +1,52 @@
+.registration{
+    background-color: #F7F9FF;
+    font-weight: normal;
+    font-size: 1.125rem;
+    color: #0F2E68;
+    min-height: 500px;
+
+    h1{
+        font-weight: bold;
+        font-size: 2rem;
+        @include media-breakpoint-up(md) {
+            font-size: 3rem;
+        }
+    }
+
+    input[type=text], input[type=email], input[type=password] {
+        height: 55px;
+        font-size: 1.125rem;
+        padding: 0 10px;
+        width: 100%;
+    }
+
+    textarea {
+        font-size: 1.125rem;
+    }
+
+    input[type=submit] {
+        background-color: #EEA701;
+        border: 0;
+        border-radius: 5px;
+        color: white;
+        padding: 20px 30px;
+        text-align: center;
+        font-size: 1.125rem;
+        font-weight: bold;
+        height: 70px;
+        margin: 0 auto;
+        width: 100%;
+
+        @include media-breakpoint-up(md) {
+            width: 158px;
+        }
+    }
+
+    .tiptol{
+        font-size: 12px;
+    }
+
+    .phone-numbers a{
+        color: #0F2E68;
+    }
+}

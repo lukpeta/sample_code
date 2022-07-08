@@ -1,0 +1,33 @@
+.how-we-working{
+    background-color: #F7F9FF;
+    font-weight: normal;
+    font-size: 1.125rem;
+    color: #0F2E68;
+    min-height: 500px;
+
+    h1 {
+        font-weight: bold;
+        font-size: 2rem;
+        @include media-breakpoint-up(md) {
+            font-size: 3rem;
+        }
+    }
+
+    h2{
+        font-weight: 400;
+        font-size: 1.875rem;
+    }
+
+    .href{
+        color: #EEA701;
+    }
+
+
+    hr{
+        height: 1px;
+        width: 80%;
+        left: 10%;
+        border-bottom: 1px solid #BFCBE1;
+        color: #BFCBE1;
+    }
+}
